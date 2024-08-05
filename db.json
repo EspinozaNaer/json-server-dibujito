@@ -1,9 +1,193 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "hairs": [
+  { 
+    "id": 1, 
+    "name": "bald", 
+    "length": "short",
+    "gender": "male",
+    "svgUrl": "calvo.svg" 
+  },
+  { 
+    "id": 2, 
+    "name": "fair", 
+    "length": "short",
+    "gender": "male",
+    "svgUrl": "pelo liso h1.svg" 
+  },
+  { 
+    "id": 3, 
+    "name": "fair", 
+    "length": "short",
+    "gender": "male",
+    "svgUrl": "pelo liso h2.svg" 
+  },
+  { 
+    "id": 4, 
+    "name": "fair", 
+    "length": "short",
+    "gender": "male",
+    "svgUrl": "pelo liso h3.svg" 
+  },
+  { 
+    "id": 5, 
+    "name": "fair", 
+    "length": "short",
+    "gender": "male",
+    "svgUrl": "pelo liso h4.svg" 
+  },
+  { 
+    "id": 6, 
+    "name": "fair", 
+    "length": "long",
+    "gender": "female",
+    "svgUrl": "pelo liso m1.svg" 
+  },
+  { 
+    "id": 7, 
+    "name": "fair", 
+    "length": "long",
+    "gender": "female",
+    "svgUrl": "pelo liso m2.svg" 
+  },
+  { 
+    "id": 8, 
+    "name": "fair", 
+    "length": "long",
+    "gender": "female",
+    "svgUrl": "pelo liso m3.svg" 
+  }],
+  "skin_colors": [
+    { 
+      "id": 1, 
+      "name": "pale_skin", 
+      "hexCode": "#FFD6B4",
+      "svgUrl": "color1.svg" 
+    },
+    { 
+      "id": 2, 
+      "name": "light_skin", 
+      "hexCode": "#F8C5A2",
+      "svgUrl": "color2.svg" 
+    },
+    { 
+      "id": 3, 
+      "name": "medium_light_skin", 
+      "hexCode": "#E6B58F",
+      "svgUrl": "color3.svg" 
+    },
+    { 
+      "id": 4, 
+      "name": "medium_skin", 
+      "hexCode": "#D79D78",
+      "svgUrl": "color4.svg" 
+    },
+    { 
+      "id": 5, 
+      "name": "medium_dark_skin", 
+      "hexCode": "#CD8D68",
+      "svgUrl": "color5.svg" 
+    },
+    { 
+      "id": 6, 
+      "name": "dark_skin", 
+      "hexCode": "#BA7150",
+      "svgUrl": "color6.svg" 
+    },
+    { 
+      "id": 7, 
+      "name": "black_skin", 
+      "hexCode": "#8E583B",
+      "svgUrl": "color  7.svg" 
+    }],
+  "hair_colors": [
+    { 
+      "id": 8, 
+      "name": "white_hair", 
+      "hexCode": "#FAFFFF",
+      "svgUrl": "color8.svg" 
+    },
+    { 
+      "id": 9, 
+      "name": "gray_hair", 
+      "hexCode": "#7C8285",
+      "svgUrl": "color9.svg" 
+    },
+    { 
+      "id": 10, 
+      "name": "blonde_hair", 
+      "hexCode": "#F4DB7A",
+      "svgUrl": "color10.svg" 
+    },
+    { 
+      "id": 11, 
+      "name": "dark_blonde_hair", 
+      "hexCode": "#E1A73F",
+      "svgUrl": "color11.svg" 
+    },
+    { 
+      "id": 12, 
+      "name": "gold_hair", 
+      "hexCode": "#AB9A58",
+      "svgUrl": "color12.svg" 
+    },
+    { 
+      "id": 13, 
+      "name": "dark_gold_hair", 
+      "hexCode": "#957B33",
+      "svgUrl": "color13.svg" 
+    },
+    { 
+      "id": 14, 
+      "name": "brown_hair", 
+      "hexCode": "#75572D",
+      "svgUrl": "color14.svg" 
+    },
+    { 
+      "id": 15, 
+      "name": "dark_brown_hair", 
+      "hexCode": "#4D3716",
+      "svgUrl": "color15.svg" 
+    },
+    { 
+      "id": 16, 
+      "name": "reddish_hair", 
+      "hexCode": "#611C15",
+      "svgUrl": "color16.svg" 
+    },
+    { 
+      "id": 17, 
+      "name": "light_reddish_hair", 
+      "hexCode": "#94472C",
+      "svgUrl": "color17.svg" 
+    },
+    { 
+      "id": 18, 
+      "name": "black_hair", 
+      "hexCode": "#271D12",
+      "svgUrl": "color18.svg" 
+    }],
+  "accessories": [
+    { 
+      "id": 1, 
+      "name": "none", 
+      "svgUrl": "none.svg" 
+    },
+    { 
+      "id": 2, 
+      "name": "glasses", 
+      "svgUrl": "glasses.svg" 
+    }],
+  "beards": [
+    { 
+      "id": 1, 
+      "name": "none",
+      "length": "short", 
+      "svgUrl": "none.svg" 
+    },
+    { 
+      "id": 2, 
+      "name": "full_beard", 
+      "length": "long", 
+      "svgUrl": "full_beard.svg" 
+    }]
 }
